@@ -12,7 +12,7 @@ let age=21  // note:All JavaScript numbers are stored as decimal numbers (floati
 let y = 123e5;    // 12300000
 let z = 123e-5;   // 0.00123
 
-//3.BigInt
+//3.bigint
 let b = BigInt("123456789012345678901234567890");
 
 //4.boolean
@@ -26,12 +26,13 @@ let state // as it is not initialized,it is undefined
 let state1=null
 // console.log(typeof state1) -> o/p : object (but not null)
 
-//7.Symbol -> unique
+//7.symbol -> unique
 
-//8.Object
+//8.object
 
 // typeof operator 
 console.log(typeof isLoggedIn)
+// we can also write like : console.log(typeof(isLoggedIn))
 
 let x = 16 + 4 + "Volvo"; // x=20Volvo
 let a = "Volvo" + 16 + 4; // a=Volvo164
