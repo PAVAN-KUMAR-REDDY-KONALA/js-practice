@@ -14,6 +14,9 @@ let z = 123e-5;   // 0.00123
 
 //3.bigint
 let b = BigInt("123456789012345678901234567890");
+//second way to denote bigint: add n at last of the number
+let b1=123n
+console.log(typeof b1); // bigint
 
 //4.boolean
 let isLoggedIn=true 
@@ -34,5 +37,4 @@ let state1=null
 console.log(typeof isLoggedIn)
 // we can also write like : console.log(typeof(isLoggedIn))
 
-let x = 16 + 4 + "Volvo"; // x=20Volvo
-let a = "Volvo" + 16 + 4; // a=Volvo164
+
